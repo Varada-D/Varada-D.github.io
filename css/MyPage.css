@@ -8,7 +8,7 @@ html {
 header {
 	position: static;
 	width: 100%;
-	color: rgba(255,255,255,1);
+	color: #39FF14;
 	background-color: rgba(0,0,0,1);
 	background: url(../images/1.jpg) no-repeat center;
 }
@@ -36,7 +36,7 @@ header h1{
 	nav a {
 		display: inline-block;
 		width: auto;
-		color: rgba(255,255,255,1);
+		color: rgba(238,255,0,1);
 		padding: 5%;
 		margin-top: 1em;
 		float: right;
@@ -65,7 +65,7 @@ section {
 	float: left;
 	padding-left: 15%;
 	padding-top: 5%;
-	color: rgba(255,255,255,1);
+	color: rgba(238,255,0,1);
 }
 
 
@@ -117,6 +117,7 @@ details li { margin-left: 15%; }
 	height: 100vh;
 	width: 100%;
 	position: relative;
+	color: rgba(238,255,0,1);
 }
 
 
