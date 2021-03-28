@@ -1,0 +1,79 @@
+.topnav {
+	overflow: hidden;
+	width: auto;
+	margin-bottom: 1vh;
+}
+
+
+
+.topnav a {
+	float: right;
+	display: block;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+
+
+.topnav a:hover, .topnav a:focus {
+	color: rgba(0,0,0,1);
+	background-color: rgba(127, 255, 212, 1);
+	-o-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+	-webkit-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+	-moz-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+	-ms-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+	background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+}
+
+
+
+
+/* Hide the link that would open and close the topnav on small screens */
+.topnav .icon, .navbr { display: none; }
+
+
+
+/* When the screen is less than 900 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 900px) {
+	.topnav a { display: none; }
+
+	.topnav a.icon {
+		display: block;
+		float: right;
+	}
+}
+
+
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+	.navbr { display: block; }
+
+	.topnav.responsive {
+		position: relative;
+		padding-bottom: 2vh;
+	}
+  
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-bottom: 5vh;
+		display: block;
+		float: right;
+		width: auto;
+	}
+
+	.topnav.responsive a {
+		margin-left: 1.75vw;
+		display: block;
+		text-align: left;
+		float: right;
+		width: 92.5vw;
+	}
+}

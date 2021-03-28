@@ -1,0 +1,487 @@
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+
+
+header {
+	position: static;
+	width: 100%;
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,1);
+	background: url(../images/1.jpg) no-repeat center;
+}
+
+
+
+header h1{
+	display: inline-block;
+	margin-top: 1.5%;
+	margin-left: 5%;
+	font-size: 200%;
+	width: auto;
+}
+
+
+
+@media screen and (min-width: 900px) {
+	nav {
+		float: right;
+		margin-right: 2%;
+		width: auto;
+		margin-left: 0%;
+	}
+
+	nav a {
+		display: inline-block;
+		width: auto;
+		color: rgba(255,255,255,1);
+		padding: 5%;
+		margin-top: 1em;
+		float: right;
+		text-decoration: none;
+		border-left: 1px rgba(0,0,0,0.5) solid;
+		text-align: center;
+	}
+
+	nav a:hover, nav a:focus {
+		color: rgba(0,0,0,1);
+		background-color: rgba(127, 255, 212, 1);
+		-o-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+		-webkit-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+		-moz-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+		-ms-background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+		background-image: linear-gradient(rgba(127,255,212,1), rgba(127,200,255,1));
+	}
+}
+
+
+
+section {
+	position: relative;
+	top: 5%;
+	display: inline-block;
+	float: left;
+	padding-left: 15%;
+	padding-top: 5%;
+	color: rgba(255,255,255,1);
+}
+
+
+
+summary { padding-left: 5%; }
+
+
+
+summary h2, summary h3 {
+	display: inline;
+	font-size: 130%;
+}
+
+
+
+details p, details label, details li {
+	font-size: 1.2em;
+	margin-left: 10%;
+	width: 75%;
+	text-align: justify;
+}
+
+
+
+details li { margin-left: 15%; }
+	
+
+
+#Home h1, #AboutMe h1, #Certifications h1, #Activities h1 {
+	display: inline-block;
+	font-size: 200%;
+	padding-bottom: 0;
+}
+
+
+
+#Home p {
+	font-size: 150%;
+	display: inline-block;
+	width: 75%;
+}
+
+
+
+#Home {
+  background: url(../images/1.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+
+
+#C {
+	margin-top: 2vh;
+	padding: 0;
+	background: url(../images/4.jpg) no-repeat center;
+	background-size: cover;
+	width: 97.8vw;
+	padding-bottom: 8vh;
+}
+
+
+
+#AM {
+	margin-top: 2vh;
+	padding: 0;
+	background: url(../images/3.jpg) no-repeat center;
+	background-size: cover;
+	width: 97.8vw;
+	padding-bottom: 8vh;
+}
+
+
+
+#A {
+	margin-top: 2vh;
+	padding: 0;
+	background: url(../images/2.jpg) no-repeat center;
+	background-size: cover;
+	background-opacity: 0.5;
+	width: 97.8vw;
+	padding-bottom: 8vh;
+}
+
+
+
+section #hi {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+}
+
+
+
+#Home img {
+	float: right;
+	display: inline-block;
+	border-radius: 50%;
+	width: 15%;
+	margin-right: 20vw;
+	margin-top: 10vh;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    section #hi {
+        width: 100%;
+	height: auto;
+    }
+    
+    #Home img {
+        width: 30%;
+	margin-top: 0;
+	margin-right: 10%;
+	padding: 0;
+    }
+}
+
+
+
+section #AboutMe, section #Activities {
+	padding: 0;
+	width: 100vw;
+	margin-bottom: 0 0 5vh 5vw;
+}
+
+
+
+#AboutMe h1, #Activities h1  {
+	color: rgba(0,0,0,1);
+	display: block;
+}
+
+
+
+section #Education, section #Skills, section #Projects, section #Experience {
+	display: block;
+	width: 90vw;
+	color: rgba(0,0,0,1);
+	padding: 0;
+	padding-top: 5%;
+}
+
+
+
+section #Projects, section #Experience {
+	margin-top: 0;
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+	section #Education, section #Skills {
+		color: rgba(0,0,0,1);
+		width: 45vw;
+		display: block;
+		padding: 0;
+	}
+
+	h2 { display: inline-block; }
+}
+
+
+
+table {
+	text-align: center;
+	margin :0 auto;
+	font-size: 120%;
+	width: 80%;
+}
+
+
+
+th { border: 2px solid rgba(0,0,0,1); }
+
+
+
+td { border: 1px solid rgba(0,0,0,1); }
+
+
+
+section #Skills {
+	float: left;
+	margin-left: 5vw;
+}
+
+
+
+section #Education { margin-right: 0; }
+	
+
+
+@media screen and (min-width: 900px) {
+	#Activities table { width: 60%; }
+}
+
+
+
+#Projects, #Experience {
+	color: rgba(0,0,0,1);
+	display: block;
+	width: 100%;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#Projects h2, #Experience h2 {
+	padding-left: 0;
+	margin: 0;
+}
+
+
+
+#Certifications, #Activities, #AboutMe {
+	width:93.5vw;
+	color: rgba(0,0,0,1);
+	clear: both;
+	padding: 0;
+	margin:0;
+	margin-left: 5vw;
+}
+
+
+
+#Certifications h1{
+	margin-left: 0;
+	margin-bottom: 2vh;
+}
+
+
+
+p #Note{
+	text-decoration: none;
+	font-size: 1em;
+}
+
+
+
+#Activities { width: 80vw; }
+
+
+
+#Activities h2, #Activities details {
+	color: rgba(0,0,0,1);
+	margin-left: 10vh;
+}
+
+
+
+footer #ContactMe{
+	position: static;
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	background: url(../images/1.jpg) no-repeat center;
+	margin-top: 2vh;
+	margin-bottom: 1.5vh;
+	padding-top: 2vh;
+	padding-left: 0;
+	height: 40vh;
+}
+
+
+
+footer  h1 {
+	display: inline-block;
+	margin-left: 5%;
+	font-size: 200%;
+	color: rgba(255,255,255,1);
+	padding-bottom: 5vh;
+}
+
+
+
+#ContactMe a{
+	color: rgba(255,255,255,1);
+	margin-left: 20vw;
+}
+
+
+
+a.button {
+	display: inline-block;
+	border-radius: 5%;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1em;
+	padding: 2%;
+	width: auto;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 1% 1% 0 25%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	a.button {
+		margin-left: 10%;
+		float: left;
+	}
+}
+
+
+
+a.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+
+
+a.button span:after {
+	color: #FFFFFF;
+	content: '>>';
+	position: absolute;
+	opacity: 0;
+	top: 25%;
+	right: -20px;
+	transition: 0.5s;
+}
+
+
+
+a.button:hover span { padding-right: 25px; }
+
+
+
+a.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+
+a.button:active {
+	background-color: #f57c00;
+	box-shadow: 0 5px #ff8a65;
+	transform: translateY(4px);
+}
+
+
+
+@media screen and (max-width: 900px) {
+	#Home, #AboutMe, #Certifications {
+		margin-left: 0;
+		padding-left: 0;
+		clear: both;
+	}
+
+	details, #AboutMe h1, #Certifications h1 {
+		margin-left: 5vw;
+		padding-left: 0;
+		clear: both;
+	}
+
+	#Education h2, #Skills h2, #Projects h2, #Experience h2{
+		margin-left: 0;
+		padding-left: 0;
+		clear: both;
+	}	
+
+	#Home h1, #Home p{
+		margin-left: 10vw;
+	}
+}
+
+
+
+.fa_custom:hover, .fa_custom:focus { color: rgba(0,0,255,1); }
+
+
+.fa_custom2:hover, .fa_custom2:focus { color: rgba(255, 0, 0, 1); }
+
+
+.fa_custom3:hover, .fa-custom3:focus { color: #0096e4; }
+
+
+
+#Skills p span {
+	float: right;
+	margin-right: 3vw;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+	#Activities h2, #Activities details, #Activities p {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	
+	#ContactMe a {
+		margin-left: 15vw;
+	}
+
+	.fa_custom {
+		margin-left: 5vw;
+	}
+}
+
+
+#Activities td:nth-child(n) {
+	text-align: left;
+	padding-left: 2vw;
+}
