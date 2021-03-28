@@ -148,6 +148,7 @@ details li { margin-left: 15%; }
 	padding: 0;
 	background: url(../images/2.jpg) no-repeat center;
 	background-size: cover;
+	background-opacity: 0.5;
 	width: 97.8vw;
 	padding-bottom: 8vh;
 }
@@ -182,6 +183,16 @@ section #hi {
     }
     
     #Home img {
+        width: 16%;
+	margin-top: 0;
+	margin-right: 10%;
+	padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+   #Home img {
         width: 30%;
 	margin-top: 0;
 	margin-right: 10%;
@@ -194,7 +205,7 @@ section #hi {
 section #AboutMe, section #Activities {
 	padding: 0;
 	width: 100vw;
-	margin: 0 0 5vh 5vw;
+	margin-bottom: 0 0 5vh 5vw;
 }
 
 
