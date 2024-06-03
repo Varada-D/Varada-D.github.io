@@ -193,8 +193,9 @@ img#myPic {
 
 .slider-container {
   background-color: #fff;
-  position: fixed;
-  bottom: 0;
+  overflow-x: hidden;
+  /*   position: fixed; */
+  /*   bottom: 0; */
   animation: scroll 20s linear infinite;
 }
 
